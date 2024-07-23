@@ -9,6 +9,6 @@ This small software allow to receive messages with sensor data over MQTT
 Install the following dependencies :
 ```
 pip3 install load_dotenv
-pip3 install paho
+pip3 install paho-mqtt
 ```
 Create `.env` file based on `.env.example` then start the script with `python3 client.py` 
